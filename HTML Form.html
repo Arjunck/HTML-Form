@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Form</title>
+</head>
+
+<body>
+<table>
+<tr><td style="height:25px; background-color:#666;"></td></tr>
+
+<tr>
+<td>
+<form>
+  <fieldset>
+    <legend>Your Details</legend>
+    <table>
+    <tr><td>Name: </td><td><input type="text" name="name" ></td></tr>
+    <tr><td>Email: </td><td><input type="email" name="email" ></td></tr>
+    
+    </table>
+   
+  </fieldset><br>
+  
+   <fieldset>
+    <legend>Your Review</legend>
+    <table>
+    <tr><td>How did you hear about us? <select name="cars">
+  <option value="Google">Google</option>
+  <option value="News">News</option>
+  <option value="Ads">Ads</option>
+ 
+</select><br><br></td></tr>
+    <tr><td>Would you like to visit again<br><input type="radio" name="gender" value="male" checked> Yes
+  <input type="radio" name="gender" value="female"> No
+  <input type="radio" name="gender" value="other"> May be<br><br></td></tr>
+    <tr><td>Comments<br><textarea name="Comments" rows="10" cols="30">
+
+</textarea></td></tr>
+<tr><td><input type="checkbox" name="vehicle1" value="Bike"> Sign me up for email updates<br><br></td></tr>
+<tr><td> <input type="submit" value="Submit review"><br></td></tr>
+    
+    </table>
+   
+  </fieldset>
+</form>
+</td>
+</tr>
+</table>
+
+</body>
+</html>
